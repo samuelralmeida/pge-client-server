@@ -26,3 +26,8 @@ Os 3 contextos deverão retornar erro nos logs caso o tempo de execução seja i
 O client.go terá que salvar a cotação atual em um arquivo "cotacao.txt" no formato: Dólar: {valor}
  
 O endpoint necessário gerado pelo server.go para este desafio será: /cotacao e a porta a ser utilizada pelo servidor HTTP será a 8080.
+
+## Executar
+
+- Para executar o server: `go run server/server.go`
+- Para executar o client: `go run client/client.go`
